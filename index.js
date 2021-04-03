@@ -7,7 +7,8 @@ var port = 3700;
 mongoose.Promise = global.Promise;
 
 // mongoose.connect('mongodb+srv://lucianonicolas:nosleep.14@cluster0.bzoab.gcp.mongodb.net/catita?retryWrites=true&w=majority' ,{ useNewUrlParser: true, useUnifiedTopology: true })
-mongoose.connect('mongodb+srv://lmestudio:nosleep.14@cluster0.dtg6a.mongodb.net/lmshop?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+// mongoose.connect('mongodb+srv://lmestudio:nosleep.14@cluster0.dtg6a.mongodb.net/lmshop?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://felina:felina1010@felina.locj6.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
 	.then(() => {
 		console.log("Conexión a la base de datos establecida satisfactoriamente...");
 
