@@ -6,14 +6,11 @@ var Schema = mongoose.Schema;
 var PreferencesSchema = Schema({
 	nameCommerce: String,
 	descriptionCommerce: String,
-	
 	nameBankAccount: String,
-	CBUBank: Number,
+	CBUBank: String,
 	boxTypeBank: String,
 	nameBank: String,
-
 	terminosYCondiciones: String,
-
 	phoneContact: String,
 	emailContact: String,
 	ubicationContact: String,
@@ -24,7 +21,6 @@ var PreferencesSchema = Schema({
 	firstColor: String,
 	secondColor: String,
 	imageBanner: String,
-	
 })
 
 module.exports = mongoose.model('Preferences', PreferencesSchema);

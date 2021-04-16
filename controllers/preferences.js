@@ -11,14 +11,11 @@ var controller = {
 
         preferences.nameCommerce = params.nameCommerce;
         preferences.descriptionCommerce = params.descriptionCommerce;
-
         preferences.nameBankAccount = params.nameBankAccount;
-        preferences.CBUBank = preferences.CBUBank;
+        preferences.CBUBank = params.CBUBank;
         preferences.boxTypeBank = params.boxTypeBank;
         preferences.nameBank = params.nameBank;
-
         preferences.terminosYCondiciones = params.terminosYCondiciones;
-
         preferences.phoneContact = params.phoneContact;
         preferences.emailContact = params.emailContact;
         preferences.ubicationContact = params.ubicationContact;
